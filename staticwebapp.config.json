@@ -1,5 +1,10 @@
 {
-  "mimeTypes": {
-    "/.well-known/com.apple.remotemanagement": "application/json"
+  "responseOverrides": {
+    "/.well-known/com.apple.remotemanagement": {
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
   }
 }
+
