@@ -1,0 +1,5 @@
+{
+  "mimeTypes": {
+    "/.well-known/com.apple.remotemanagement": "application/json"
+  }
+}
