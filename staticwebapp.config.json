@@ -1,10 +1,12 @@
 {
-  "responseOverrides": {
-    "/.well-known/com.apple.remotemanagement": {
-      "headers": {
-        "Content-Type": "application/json"
-      }
+  "routes": [
+    {
+      "route": "/.well-known/com.apple.remotemanagement",
+      "rewrite": "/.well-known/com.apple.remotemanagement.json"
     }
+  ],
+  "mimeTypes": {
+    ".json": "application/json"
   }
 }
 
